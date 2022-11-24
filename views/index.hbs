@@ -1,0 +1,32 @@
+<div class="container d-flex justify-content-center mt-100">
+  <div class="row">
+    <h1 class="title" style="margin: 50px auto; font-weight:bolder;">{{appTitle}} 🥗</h1>
+
+    {{!-- <a class="btn btn-secondary btn-lg" href="/events/create">Create a event</a> --}}
+    <hr>
+
+    <h3 style="font-size:20px; color:black;">Map of all events</h3>
+  </div>
+
+</div>
+
+{{!-- <div class="container d-flex align-content-center"></div>
+
+<div class="row">
+  <a class="btn btn-secondary btn-lg" href="/registrar">Registrarse</a>
+  <hr>
+  <a class="btn btn-secondary btn-lg" href="/login">Login</a>
+  <hr>
+  <a class="btn btn-secondary btn-lg" href="/logout">Logout</a>
+</div>
+</div> --}}
+
+
+
+<figure id="myMap"></figure>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="/js/eventsMap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCa70rdvV8G50ikRY53vcMNGOyfWy4Ppc&callback=initMap">
+</script>
